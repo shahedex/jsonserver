@@ -1,4 +1,4 @@
-[{
+{"users":[{
     "id": 1,
     "first_name": "Shajal",
     "last_name": "Ahamed",
@@ -69,3 +69,4 @@
     "gender": "Male",
     "ip_address": "112.52.230.252"
   }]
+}
