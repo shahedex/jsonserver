@@ -1,72 +1,94 @@
-{"users":[{
-    "id": 1,
-    "first_name": "Shajal",
-    "last_name": "Ahamed",
-    "email": "hcolomb0@joomla.org",
-    "gender": "Male",
-    "ip_address": "135.173.207.17"
-  }, {
-    "id": 2,
-    "first_name": "Shahed",
-    "last_name": "Mehbub",
-    "email": "vpetegrew1@printfriendly.com",
-    "gender": "Male",
-    "ip_address": "74.237.186.64"
-  }, {
-    "id": 3,
-    "first_name": "Vonnie",
-    "last_name": "Rewan",
-    "email": "vrewan2@narod.ru",
-    "gender": "Female",
-    "ip_address": "149.224.144.106"
-  }, {
-    "id": 4,
-    "first_name": "Kore",
-    "last_name": "Osment",
-    "email": "kosment3@usnews.com",
-    "gender": "Female",
-    "ip_address": "134.177.117.228"
-  }, {
-    "id": 5,
-    "first_name": "Shellie",
-    "last_name": "Duberry",
-    "email": "sduberry4@jimdo.com",
-    "gender": "Female",
-    "ip_address": "227.1.57.83"
-  }, {
-    "id": 6,
-    "first_name": "Natale",
-    "last_name": "Tipens",
-    "email": "ntipens5@google.pl",
-    "gender": "Male",
-    "ip_address": "146.147.199.154"
-  }, {
-    "id": 7,
-    "first_name": "Iorgos",
-    "last_name": "Northley",
-    "email": "inorthley6@netvibes.com",
-    "gender": "Male",
-    "ip_address": "130.91.24.33"
-  }, {
-    "id": 8,
-    "first_name": "Nikos",
-    "last_name": "Stanfield",
-    "email": "nstanfield7@skyrock.com",
-    "gender": "Male",
-    "ip_address": "129.83.214.184"
-  }, {
-    "id": 9,
-    "first_name": "Lorant",
-    "last_name": "Egel",
-    "email": "legel8@infoseek.co.jp",
-    "gender": "Male",
-    "ip_address": "189.114.238.121"
-  }, {
-    "id": 10,
-    "first_name": "Hercule",
-    "last_name": "Phizackerly",
-    "email": "hphizackerly9@tinyurl.com",
-    "gender": "Male",
-    "ip_address": "112.52.230.252"
-  }]
+{
+  "lab_list":[
+    {
+      "id": 1,
+      "title": "Learn Docker (Hands-on)",
+      "description": "Learn Docker in a very productive and practical way through this Docker lab. You will get to play with Docker just like a production environment with a virtual machine of your own.",
+      "duration": 3,
+      "level": 1,
+      "url": "learn-docker",
+      "image_url": "https://via.placeholder.com/300/09f.png/fff"
+    }, 
+    {
+      "id": 2,
+      "title": "Learn ABC (Hands-on)",
+      "description": "Learn ABC in a very productive and practical way through this ABC lab. You will get to play with ABC just like a production environment with a virtual machine of your own.",
+      "duration": 1,
+      "level": 1,
+      "url": "learn-abc",
+      "image_url": "https://via.placeholder.com/300/09f.png/fff"
+    }, 
+    {
+      "id": 3,
+      "title": "Learn DEF (Hands-on)",
+      "description": "Learn DEF in a very productive and practical way through this DEF lab. You will get to play with DEF just like a production environment with a virtual machine of your own.",
+      "duration": 1,
+      "level": 1,
+      "url": "learn-def",
+      "image_url": "https://via.placeholder.com/300/09f.png/fff"
+    }, 
+    {
+      "id": 4,
+      "title": "Learn GHI (Hands-on)",
+      "description": "Learn GHI in a very productive and practical way through this GHI lab. You will get to play with GHI just like a production environment with a virtual machine of your own.",
+      "duration": 3,
+      "level": 2,
+      "url": "learn-ghi",
+      "image_url": "https://via.placeholder.com/300/09f.png/fff"
+    }, 
+    {
+      "id": 5,
+      "title": "Learn JKL (Hands-on)",
+      "description": "Learn JKL in a very productive and practical way through this JKL lab. You will get to play with JKL just like a production environment with a virtual machine of your own.",
+      "duration": 2,
+      "level": 2,
+      "url": "learn-jkl",
+      "image_url": "https://via.placeholder.com/300/09f.png/fff"
+    }, 
+    {
+      "id": 6,
+      "title": "Learn MNO (Hands-on)",
+      "description": "Learn MNO in a very productive and practical way through this MNO lab. You will get to play with MNO just like a production environment with a virtual machine of your own.",
+      "duration": 1,
+      "level": 2,
+      "url": "learn-mno",
+      "image_url": "https://via.placeholder.com/300/09f.png/fff"
+    }, 
+    {
+      "id": 7,
+      "title": "Learn PQR (Hands-on)",
+      "description": "Learn PQR in a very productive and practical way through this PQR lab. You will get to play with PQR just like a production environment with a virtual machine of your own.",
+      "duration": 2,
+      "level": 1,
+      "url": "learn-pqr",
+      "image_url": "https://via.placeholder.com/300/09f.png/fff"
+    }, 
+    {
+      "id": 8,
+      "title": "Learn STU (Hands-on)",
+      "description": "Learn STU in a very productive and practical way through this STU lab. You will get to play with STU just like a production environment with a virtual machine of your own.",
+      "duration": 3,
+      "level": 1,
+      "url": "learn-stu",
+      "image_url": "https://via.placeholder.com/300/09f.png/fff"
+    }, 
+    {
+      "id": 9,
+      "title": "Learn VWX (Hands-on)",
+      "description": "Learn VWX in a very productive and practical way through this VWX lab. You will get to play with VWX just like a production environment with a virtual machine of your own.",
+      "duration": 1,
+      "level": 2,
+      "url": "learn-vwx",
+      "image_url": "https://via.placeholder.com/300/09f.png/fff"
+    }, 
+    {
+      "id": 10,
+      "title": "Learn YZ (Hands-on)",
+      "description": "Learn YZ in a very productive and practical way through this YZ lab. You will get to play with YZ just like a production environment with a virtual machine of your own.",
+      "duration": 2,
+      "level": 3,
+      "url": "learn-yz",
+      "image_url": "https://via.placeholder.com/300/09f.png/fff"
+    }
+  ]
 }
