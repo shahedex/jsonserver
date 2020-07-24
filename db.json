@@ -9,7 +9,7 @@
       "credits": 200,
       "url": "learn-docker",
       "image_url": "https://via.placeholder.com/300/09f.png/fff",
-      "labData": "# h1 Heading 8-)\n## h2 Heading\n### h3 Heading\n#### h4 Heading\n##### h5 Heading\n###### h6 Heading\n## Horizontal Rules \n---\n## Typographic replacements Enable typographer option to see result. \n## Emphasis \n**This is bold text** \n__This is bold text__\n"
+      "labData": "# Setting up Centos VM for Kubernetes\n## Changing own hostname\n```console\n$ hostnamectl set-hostname newhostname\n```\n## Set hostname for master and workers\n```console\n$ sudo vi /etc/hosts\n```\nEnter the ip and hostname on the hosts file.\nor\n```console\n$ cat >>/etc/hosts<<EOF\nxxx.xxx.xxx.xxx hostname\nxxx.xx.xxx.xx hostname2\nEOF\n```\n## Install docker and start docker service\n```console\n$ yum install -y -q yum-utils device-mapper-persistent-data lvm2 > /dev/null 2>&1\n$ yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo > /dev/null 2>&1\n$ yum install -y -q docker-ce >/dev/null 2>&1\n$ systemctl enable docker\n$ systemctl start docker\n```\n## Check docker status \n```console\n$ systemctl status docker\n```\n\n"
     }, 
     {
       "id": 2,
